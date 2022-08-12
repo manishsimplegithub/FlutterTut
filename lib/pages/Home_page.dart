@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
   int days = 30;
   String name = "manish";
   Widget build(BuildContext context) {
+    // bringvegetables(thala: true);
     return Scaffold(
       appBar: AppBar(
         title: Text("Catlog App"),
@@ -19,5 +20,12 @@ class HomePage extends StatelessWidget {
       drawer: Drawer(),
     );
   }
+
+  // bringvegetables({
+  //   bool thala = false,
+  //   int rupees = 100,
+  // }) {
+    //cycle
+    // go to sec 16
+  // }
 }
- 
